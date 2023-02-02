@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Medical Insurance Charges Prediction</title>
+    </head>
+    <body>
+        <h1>Medical Insurance Charges Prediction</h1>
+        <form action="/predict" method="post">
+            <p>
+                <label for="age">Age:</label>
+                <input type="text" name="age">
+            </p>
+            <p>
+                <label for="sex">Sex:</label>
+                <input type="text" name="sex">
+            </p>
+            <p>
+                <label for="bmi">BMI:</label>
+                <input type="text" name="bmi">
+            </p>
+            <p>
+                <label for="children">Number of Children:</label>
+                <input type="text" name="children">
+            </p>
+            <p>
+                <label for="smoker">Smoker:</label>
+                <input type="text" name="smoker">
+            </p>
+            <p>
+                <label for="region">Region:</label>
+                <input type="text" name="region">
+            </p>
+            <p>
+                <input type="submit" value="Predict">
+            </p>
+        </form>
+        {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+        {% endif %}
+    </body>
+</html>

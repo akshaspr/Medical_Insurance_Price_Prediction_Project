@@ -1,0 +1,9 @@
+Problem Statement: Predicting Medical Insurance Charges using Linear Regression Algorithm
+
+Objective: The objective of this project is to develop a machine learning model that predicts the medical insurance charges of an individual based on their demographic and lifestyle factors.
+
+Dataset: The dataset consists of information on medical insurance charges for individuals. The features include age, sex, body mass index (BMI), number of children, smoking status, and region. The target variable is the medical insurance charges.
+
+Methodology: A linear regression algorithm will be used to develop a predictive model. The model will take in the input features and return a predicted value for the medical insurance charges. The model will be evaluated based on its accuracy and how well it generalizes to unseen data.
+
+Significance: Accurate prediction of medical insurance charges is important for both individuals and insurance companies. For individuals, it helps in making informed decisions about their insurance coverage and budgeting. For insurance companies, it helps in setting appropriate insurance premiums, improving their financial planning and ensuring sustainable business operations.
